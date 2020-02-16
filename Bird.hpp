@@ -1,6 +1,7 @@
 #include <iostream>
 #ifndef BIRD_HPP // include guard
 #define BIRD_HPP
+#include "Animal.hpp"
 
 //DERIVED CLASS
 
