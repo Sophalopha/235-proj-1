@@ -2,16 +2,15 @@
 #include "Fish.hpp"
 using namespace std;
 
-Fish::Fish() : Animal()
+Fish::Fish() 
 {
     venomous_= false;
 }
 
-Fish::Fish(string name, bool domestic, bool predator) : Animal(name,domestic,predator)
+Fish::Fish(string name, bool domestic, bool predator) 
 {
     venomous_=false;
 }
-
 
 
 bool Fish::isVenomous() const
@@ -22,6 +21,10 @@ void Fish::setVenomous()
 {
     venomous_= true;
 }
+
+
+
+
 
 
 
