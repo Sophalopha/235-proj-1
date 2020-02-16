@@ -1,6 +1,7 @@
 #include <iostream>
 #ifndef ANIMAL_HPP // include guard
 #define ANIMAL_HPP
+#include "Animal.hpp"
 
 
 class Animal
