@@ -2,12 +2,12 @@
 #include "Bird.hpp"
 using namespace std;
 
-Bird::Bird() : Animal()
+Bird::Bird() 
 {
     airbone_= false;
     aquatic_= false;
 }
-Bird::Bird(string name, bool domestic, bool predator) :  Animal(name,domestic,predator)
+Bird::Bird(string name, bool domestic, bool predator) 
 {
    
     airbone_= false;
