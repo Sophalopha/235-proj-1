@@ -1,10 +1,9 @@
 
-
 #include <iostream>
 #include "Mammal.hpp"
 using namespace std;
 
-Mammal::Mammal() : Animal()
+Mammal::Mammal() 
 {
     hair_ = false;
     airborne_= false;
@@ -14,7 +13,7 @@ Mammal::Mammal() : Animal()
     tail_= false;
     legs_ = 0;
 }
-Mammal::Mammal(string name, bool domestic, bool predator):Animal(name,domestic,predator)
+Mammal::Mammal(string name, bool domestic, bool predator)
 {
     
     hair_ = false;
@@ -83,3 +82,4 @@ void Mammal::setLegs(int legs)
 {
     legs_ = legs;
 }
+
