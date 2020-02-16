@@ -1,6 +1,7 @@
 #include <iostream>
 #ifndef FISH_HPP // include guard
 #define FISH_HPP
+#include "Animal.hpp"
 
 //DERIVED CLASS
 
@@ -20,3 +21,4 @@ class Fish: public Animal
 
 
 #endif //FISH_HPP
+
